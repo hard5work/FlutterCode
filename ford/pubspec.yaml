@@ -59,8 +59,13 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/
+    - assets/cars/
+    - assets/cars/ford1/
+    - assets/cars/ford2/
+    - assets/profile.png
+    
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -88,3 +93,25 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+fonts:
+    - family: Elmessiri
+      fonts:
+        - asset: assets/fonts/elmessiri-bold.otf
+          weight: 700
+        - asset: assets/fonts/elmessiri-medium.otf
+          weight: 500
+        - asset: assets/fonts/elmessiri-regular.otf
+          weight: 400
+        - asset: assets/fonts/elmessiri-semibold.otf
+          weight: 600
+    - family: SecondaSoft
+      fonts:
+        - asset: assets/fonts/secondasoft/SecondaSoftBold.otf
+          weight: 300
+        - asset: assets/fonts/secondasoft/SecondaSoftMedium.otf
+          weight: 500
+        - asset: assets/fonts/secondasoft/SecondaSoftRegular.otf
+          weight: 400
+        - asset: assets/fonts/secondasoft/SecondaSoftBlack.otf
+          weight: 600
